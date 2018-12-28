@@ -1,0 +1,63 @@
+/* -----------------
+
+Title: Name Plate Generator
+Author: Mason Kazel
+
+----------------- */
+
+
+body {
+  background-color: lightgray;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+* {
+  font-family: sans-serif;
+}
+
+.header-text {
+  color: dimgray;
+}
+
+.my-1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.my-2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.divider {
+  background-color: dimgray;
+  height: 2px;
+  border: 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  min-height: 500px;
+}
+
+.plate {
+  background-color: white;
+  padding: 30px;
+  border-radius: 6px;
+}
+
+.form-text {
+  border-radius: 6px;
+  padding: 10px;
+  border: 2px solid lightgray;
+}
+
+.form-submit {
+
+}
