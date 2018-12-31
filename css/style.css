@@ -56,8 +56,13 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 6px;
   padding: 10px;
   border: 2px solid lightgray;
+  width: 60%;
 }
 
 .form-submit {
-
+    padding: 10px 20px;
+    border-radius: 6px;
+    background-color: white;
+    border: 2px solid lightgray;
+    width: 30%;
 }
