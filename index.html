@@ -2,7 +2,6 @@
 <html>
   <head>
     <title>Name Plate Generator</title>
-    <script type="text/text/javascript" src="js/index.js"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
@@ -10,14 +9,21 @@
       <div id="contents" class="plate">
         <h1 class="header-text">Name Plate Generator</h1>
         <hr class="my-2 divider" />
-        <form>
-            <input name="word" type="text" placeholder="Your Text Here" class="form-text" required/>
-            <button type="submit" class="form-submit">Submit</button>
-        </form>
+        <div>
+          <form onsubmit="plateGenerate()" action="#">
+            <input name="userText" id="userText" type="text" placeholder="Your Text Here" class="form-text" required/>
+            <input type="submit" class="form-submit" value="Submit">
+          </form>
+          <div>
+            <ul id="out">
+
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </body>
   <footer>
-
+    <script type="text/javascript" src="js/index.js"></script>
   </footer>
 </html>
